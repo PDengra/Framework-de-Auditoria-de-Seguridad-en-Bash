@@ -52,8 +52,8 @@ chmod +x checks/*.sh
 3. Configura las notificaciones (opcional):
 
 export EMAIL="tucorreo@dominio.com"
-export TELEGRAM_BOT_TOKEN="123456:ABC-DEF..."
-export TELEGRAM_CHAT_ID="987654321"
+export TELEGRAM_BOT_TOKEN="TU BOT TOKEN"
+export TELEGRAM_CHAT_ID="TU CHAT ID"
 
 4. Ajusta el perfil de ejecución (opcional):
 
