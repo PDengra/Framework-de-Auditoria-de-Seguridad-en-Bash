@@ -23,29 +23,29 @@ Framework modular de auditoría de seguridad para sistemas Linux. Diseñado para
 
 ---
 
-## Estructura del proyecto
+# Estructura del proyecto
 
 audit-framework/
-├── audit.sh # Entrypoint ejecutable
-├── core/ # Núcleo del framework
-│ ├── config.sh
-│ ├── logger.sh
-│ ├── utils.sh
-│ ├── dispatcher.sh
-│ └── notifier.sh
-├── profiles/ # Perfiles de ejecución
-│ ├── ci.profile
-│ ├── server.profile
-│ └── hardened.profile
-├── checks/ # Módulos de auditoría
-│ ├── 00_integrity.sh
-│ ├── 10_network.sh
-│ ├── 20_kernel.sh
-│ ├── 30_accounts.sh
-│ ├── 40_services.sh
-│ └── 50_logs.sh
-└── output/ # Artefactos generados
-└── audit.json # Salida generada automáticamente
+  audit.sh                 # Entrypoint ejecutable
+  core/                    # Núcleo del framework
+    config.sh
+    logger.sh
+    utils.sh
+    dispatcher.sh
+    notifier.sh
+  profiles/                # Perfiles de ejecución
+    ci.profile
+    server.profile
+    hardened.profile
+  checks/                  # Módulos de auditoría
+    00_integrity.sh
+    10_network.sh
+    20_kernel.sh
+    30_accounts.sh
+    40_services.sh
+    50_logs.sh
+  output/                  # Artefactos generados
+    audit.json             # Salida generada automáticamente
 
 ---
 
